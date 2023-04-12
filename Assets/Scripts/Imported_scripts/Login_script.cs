@@ -107,7 +107,7 @@ public class Login_script : MonoBehaviour
                 // Get the id from the response
                 string responseText = www.downloadHandler.text;
 
-                Debug.Log("rrrrrrrrrrr" + responseText);
+               // Debug.Log("rrrrrrrrrrr" + responseText);
 
                 int index = responseText.IndexOf("!") + 1;
                 string idString = responseText.Substring(index).Trim();
@@ -130,9 +130,13 @@ public class Login_script : MonoBehaviour
             }
             else
             {
+//load the next scene even if the game not connected to the database just toshow how it workes.
+                SceneManager.LoadScene("Demo_Level_1");
+
+
                 m_alert.text = "Invalid username or password.";
                 m_alert.enabled = true;
-                Debug.Log("Invalid username or password.");
+                Debug.Log("Invalid username or password. but will load nest scene toshow it works");
             }
         }
     }
