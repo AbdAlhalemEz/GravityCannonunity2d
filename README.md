@@ -1,57 +1,65 @@
-# Physics Explorer Game
+# Physics Learning Cannon Game
 
 ## Project Description
 
-Physics Explorer is an educational game designed to teach children the basics of physics in an engaging and interactive way. The game features a cannon that shoots balls with different masses, velocities, and angles to destroy obstacles in various environments such as the Moon, Earth, and Mars. Players aim to achieve the highest score by efficiently destroying obstacles with a limited number of balls before the time for each level expires.
+The Physics Learning Cannon Game is an educational project aimed at contributing gaming to the field of education. Designed for children, this game teaches the basics of physics through an engaging cannon-shooting experience. Players use a cannon to launch balls with different masses, velocities, and angles to destroy obstacles in diverse environments such as the moon, Earth, and Mars. The goal is to destroy as many obstacles as possible to achieve the highest score using the least number of balls, securing a spot on the leaderboard before the time for each level expires.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Gameplay](#gameplay)
-- [Features](#features)
+- [Environments](#environments)
+- [Scoring](#scoring)
+- [Leaderboard](#leaderboard)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
 
-To play Physics Explorer, follow these installation steps:
+To play the Physics Learning Cannon Game, follow these installation steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/physicsexplorer.git`
-2. Set up the required development environment.
-3. Open the project and build it.
+1. Clone the repository: `git clone https://github.com/your-username/physicslearningcannon.git`
+2. Open the project in Unity.
+3. Build and run the game.
 
-Now you're ready to embark on a physics-learning adventure!
+Now, embark on an educational journey in the world of physics!
 
 ## Gameplay
 
-In Physics Explorer, players will:
+In the Physics Learning Cannon Game, players must:
 
-1. **Shoot Cannon**: Use the cannon to shoot balls with varying masses, velocities, and angles.
-2. **Destroy Obstacles**: Aim to destroy obstacles strategically to maximize the score.
-3. **Explore Environments**: Experience different physics environments such as the Moon, Earth, and Mars.
-4. **Limited Balls and Time**: Achieve the highest score with a limited number of balls before the level's time expires.
+1. **Shoot Balls**: Use the cannon to launch balls with different masses, velocities, and angles.
+2. **Destroy Obstacles**: Strategically aim to destroy obstacles in various environments.
+3. **Achieve High Scores**: Maximize your score by using the least number of balls.
+4. **Complete Levels**: Progress through different levels on the moon, Earth, and Mars.
 
-## Features
+## Environments
 
-- **Physics Education**: Learn physics concepts through hands-on gameplay.
-- **Diverse Environments**: Explore different planetary settings, each with its own unique physics characteristics.
-- **Strategic Gameplay**: Plan your shots carefully to optimize score with limited resources.
-- **Leaderboard**: Compete for a spot on the leaderboard by achieving the highest scores in each level.
-- **Time Challenges**: Add an extra layer of excitement with time constraints for each level.
+Explore the following environments in the game:
+
+- **Moon**: Experience low gravity and unique physics challenges.
+- **Earth**: Navigate through obstacles in a familiar gravitational environment.
+- **Mars**: Overcome challenges in the lower gravity of the red planet.
+
+## Scoring
+
+Score points based on the mass, velocity, and angle of the balls used to destroy obstacles. The game rewards precision and efficiency.
+
+## Leaderboard
+
+Compete for a spot on the leaderboard by achieving the highest score with the least number of balls. Aim to be the top physics expert in each environment!
 
 ## Contributing
 
-We welcome contributions from the community to enhance the educational impact of Physics Explorer. If you want to contribute, follow these steps:
+We welcome contributions to enhance the educational impact of the Physics Learning Cannon Game. If you want to contribute, follow these steps:
 
 1. Fork the repository and create your branch: `git checkout -b feature-name`
 2. Make your changes and commit them: `git commit -m 'Description of changes'`
 3. Push to your branch: `git push origin feature-name`
 4. Open a pull request with a detailed description of your changes.
 
-Thank you for contributing to Physics Explorer!
+Thank you for contributing to educational gaming!
 
 ## License
 
-Physics Explorer is licensed under the [MIT License](LICENSE). Feel free to play, modify, and share the game to contribute to educational initiatives.
-
----
+The Physics Learning Cannon Game is licensed under the [MIT License](LICENSE). Play, learn, and share for the betterment of education!
