@@ -11,6 +11,8 @@ The Physics Learning Cannon Game is an educational project aimed at contributing
 - [Environments](#environments)
 - [Scoring](#scoring)
 - [Leaderboard](#leaderboard)
+- [Connectors](#connectors)
+- [Database Setup](#database-setup)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -19,8 +21,9 @@ The Physics Learning Cannon Game is an educational project aimed at contributing
 To play the Physics Learning Cannon Game, follow these installation steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/physicslearningcannon.git`
-2. Open the project in Unity.
-3. Build and run the game.
+2. Import the database: Execute `database.sql` in your MySQL localhost to set up the required tables.
+3. Open the project in Unity.
+4. Build and run the game.
 
 Now, embark on an educational journey in the world of physics!
 
@@ -49,17 +52,28 @@ Score points based on the mass, velocity, and angle of the balls used to destroy
 
 Compete for a spot on the leaderboard by achieving the highest score with the least number of balls. Aim to be the top physics expert in each environment!
 
-## Contributing
+## Connectors
 
-We welcome contributions to enhance the educational impact of the Physics Learning Cannon Game. If you want to contribute, follow these steps:
+The PHP files in the Connectors folder are used to connect the Cannon game to the database. They facilitate signing in, retrieving leaderboard scores, and tracking student playtime and scores.
 
-1. Fork the repository and create your branch: `git checkout -b feature-name`
-2. Make your changes and commit them: `git commit -m 'Description of changes'`
-3. Push to your branch: `git push origin feature-name`
-4. Open a pull request with a detailed description of your changes.
+## Database Setup
 
-Thank you for contributing to educational gaming!
+1. Import the `database.sql` file into your MySQL localhost to set up the required tables.
+2. Change the `connection.php` file in the Connectors folder to your localhost, username, and password.
 
-## License
+```php
+// Example connection.php
+<?php
+$servername = "localhost";
+$username = "your_username";
+$password = "your_password";
+$dbname = "your_database_name";
 
-The Physics Learning Cannon Game is licensed under the [MIT License](LICENSE). Play, learn, and share for the betterment of education!
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
