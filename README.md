@@ -52,7 +52,7 @@ Score points based on the mass, velocity, and angle of the balls used to destroy
 
 Compete for a spot on the leaderboard by achieving the highest score with the least number of balls. Aim to be the top physics expert in each environment!
 
-![game play](https://github.com/AbdAlhalemEz/EduGame/blob/main/gameplay.gif)
+![game play](https://github.com/AbdAlhalemEz/GravityCannonunity2d/blob/main/gameplay.gif)
 
 ## Connectors
 
